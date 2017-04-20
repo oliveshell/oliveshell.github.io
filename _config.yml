@@ -3,8 +3,8 @@
 # ---------------- #
 baseurl:
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
+title: alex
+subtitle: "not a real pragrammer"
 description: "alex的个人博客"
 keywords: CV AR Slam
 favicon: /favicon.ico
