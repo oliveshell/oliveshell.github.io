@@ -31,7 +31,7 @@ const [count, setCount] = useState(0);
 ```
 * workflow 
 
-![image info](/images/post/react/hook-workflow.png)
+![image info](/images/posts/react/hook-workflow.png)
 - Dispatcher 
     The dispatcher is the shared object that contains the hook functions. It will be dynamically allocated or cleaned up based on the rendering phase of ReactDOM, and it will ensure that the user doesn’t access hooks outside a React component
 - The hooks queue
@@ -40,7 +40,7 @@ const [count, setCount] = useState(0);
     Each render cycle, there are two workInProgressTree and nextWorkingProgressTree, realise the ping-pong operation.  
 * life of a frame 
 
-![image info](/images/post/react/life-a-frame.png)
+![image info](/images/posts/react/life-a-frame.png)
 
 Accordingly, we need to rethink the way we view the a component’s state. So far we have thought about it as if it’s a plain object:
 ```javascript
