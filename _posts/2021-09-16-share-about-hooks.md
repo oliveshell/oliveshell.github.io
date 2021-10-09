@@ -6,6 +6,8 @@ description: something about the best practice of react hooks.
 keywords: react hook
 ---
 
+Why Use React Hooks instead of Class?
+
 # Share About React Hooks
 ## Agenda
 1. Why Use React Hooks instead of Class
